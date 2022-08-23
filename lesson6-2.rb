@@ -14,8 +14,6 @@ while c <= count do
   puts "a*b= #{a*b}"
   puts "a/b= #{a/b}"
   c += 1
-  if c == count + 1
-    puts "計算を終了します"
-  break
-  end
+
 end
+puts "計算を終了します"
